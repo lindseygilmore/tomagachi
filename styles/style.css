@@ -1,5 +1,6 @@
 body {
 	background-color: DarkSeaGreen;
+
 }
 
 
@@ -8,28 +9,33 @@ h1 {
 	margin: auto;
 	display: block;
 	padding: 20px;
+
 }
 
 h3 {
 	text-align: center;
 	margin: auto;
 	display: block;
+
 }
 
 #levelScore {
 	text-align: center;
 	margin: auto;
 	display: block;
+
 }
 
 .flex{
 	display: flex;
 	justify-content: center;
+
 }
 
 #hud{
 	display: flex;
 	justify-content: center;
+
 }
 
 img{
@@ -38,29 +44,35 @@ img{
     text-align: center;
     margin: 0 auto;
     padding-bottom: 20px;
+
 }
 
 button {
 	text-align: center;
 	margin: auto;
 	display: flex;
+
 }
 
 #buttons {
 	display: flex;
+
 }
 
 .dog{
 	opacity: 0;
+
 }
 
 #dog-0{
 	opacity: 1;
+
 }
 
 #age{
 	text-align: center;
 	display: flex;
 	justify-content: center;
+	
 }
 

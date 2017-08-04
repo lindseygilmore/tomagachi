@@ -1,5 +1,6 @@
 
 // animated image //
+
 var position = 0;
 var right = true;
 
@@ -22,7 +23,6 @@ setInterval(function(){
 1000);
 
 // attributing hunger //     
-
 
 var hunger = 0;
 var hungerInterval = window.setInterval(
@@ -86,8 +86,6 @@ entertainButton.addEventListener('click', function(){
 })
 
   
-  
-
 // age //
 
 var age = 0;
@@ -97,80 +95,6 @@ var age = 0;
          document.getElementById("ageIncrease").innerText = age;
      }, 5000);
     
-
-// var hungerLevel = 0
-
-// var hungerMeter = function(){
-//     hungerLevel++
-//     if (hungerLevel < 10){
-//         console.log("Feeling good!");
-//     }
-//     else if (hungerLevel < 25){
-//         console.log("Getting hungry");
-//     }
-//     else if (hungerLevel < 40){
-//         console.log("Feed me!");
-//     }
-//     else if (hungerLevel < 50){
-//         console.log("I'm hungry!");
-//     }
-//     else 
-//       console.log("He dead"); 
-// };
-
-// age //
-
-// var count = 0;
-
-// function ageCount() {
-//                 if (count == 0) {
-//                     count += 1;  
-//                 } else if (count > 10) {
-//                     count = 0;
-//                 }
-//                 $('#age').text(count);
-//             }
-        
-//         setInterval(ageCount(),200);
-
-
-       
-
-// var hunger = 10;
-
-// function myCount() {
-              
-//                 if (hunger === 10) {
-//                     hunger--;  
-//                 } else if (hunger > 10) {
-//                     hunger = 0;
-//                 }
-//                 $('#hungerLevel').text(hunger);
-        
-//             setInterval(myCount(),200);
-//         }  
-
-// $("#hungerLevel").hover(function () {
-//     $this = $(this);
-//     intervalId = setInterval(function () {
-//         $this.text(f++);
-//     }, 100);
-// }, function () {
-//     clearInterval(intervalId);
-// });
-
-
-
-
-
-
-// if('#hungerLevel' <= 0 || '#sleepLevel' <= 0) {
-//             alert('Game over!');       
-//             location.reload(); 
-//         }
-
-
-
 
 
 
